@@ -1,0 +1,57 @@
+.coverimage {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    
+  }
+  .image2 {
+    position: absolute;
+    top: 225px;
+    left: 546px;
+    width:250px;
+  }
+
+  .subheading{
+    position: absolute;
+    top: 292px;
+    left: 394px;
+    color: white;
+    font-weight: 400;
+   }
+
+   .searchbar{
+    /* font-Size: 16;
+    color: '#1890ff'; */
+    position: absolute;
+    top: 367px;
+    left: 425px;
+    
+   }
+
+  .ant-popover{
+    width: 30%;
+  }
+
+  .tag1{
+
+    
+    position: absolute;
+    top: 42px;
+    left: 12px;
+
+
+  }
+
+  .tag2{
+
+    
+    position: absolute;
+    top: 42px;
+    left: 60px;
+
+  }

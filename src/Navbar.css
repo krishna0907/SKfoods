@@ -1,0 +1,61 @@
+.navbar{
+    width:100vw;
+
+    background-color: #4e4d4d;
+
+}
+
+
+.navbarsub{
+
+display: flex;
+justify-content: center;
+
+
+}
+
+.navbarsuub{
+
+    flex:0.7;
+    display:flex;
+    justify-content: center;
+    place-items:center ;
+}
+
+.logo{
+    
+    position: absolute;
+    width: 900px;
+    float: left;
+}
+
+
+.applelogo{
+
+    height:20px;
+}
+
+
+.navtabnames{
+   
+    display: flex;
+    justify-content: space-evenly;
+    width:944px;
+
+}
+/* .fontcolor:hover{
+    display: contents;
+    color: white;
+  } */
+
+.fontcolor{
+
+    color: rgb(219, 211, 211);
+
+
+}
+ 
+.cartlogo{
+
+    height: 27px;
+}

@@ -1,0 +1,57 @@
+.bodyiphonepro{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.contentholder{
+
+    
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    align-items: center;
+
+}
+
+
+.piconeholder{
+
+    display : contents;
+
+}
+
+
+h2.text1{
+    font-size: 50px;
+    height: 1px;
+}
+
+
+p.text1{
+    font-size:30px;
+    height: 25px;
+}
+
+
+a.text1{
+    font-size: 20px;
+    color: blue;
+    
+}
+
+a.text2{
+    font-size: 20px;
+    color: blue;  
+       
+}
+
+.text1+.text2{
+    
+        margin-left: 30px;
+    
+}
