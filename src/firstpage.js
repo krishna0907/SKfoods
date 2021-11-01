@@ -1,6 +1,6 @@
 import React from 'react'
 import { Input, Space } from 'antd';
-import "./firstpage.css"
+// import "./firstpage.css"
 import { Tag } from 'antd';
 import { Popover, Button } from 'antd';
 import 'antd/dist/antd.css';
