@@ -1,5 +1,5 @@
 import React from 'react'
-import Firstpage from './firstpage'
+import LandingPage from './LandingPage'
 import "./App.css"
 
 import 'antd/dist/antd.css';
@@ -7,7 +7,7 @@ import 'antd/dist/antd.css';
 function App() {
     return (
         <div className="coverimage">
-           <Firstpage/>
+           <LandingPage/>
         </div>
 
 
