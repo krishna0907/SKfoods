@@ -1,57 +1,63 @@
-.coverimage {
-    position: relative;
-    top: 0;
-    left: 0;
-  }
-  .image1 {
-    position: relative;
-    top: 0;
-    left: 0;
-    
-  }
-  .image2 {
-    position: absolute;
-    top: 225px;
-    left: 546px;
-    width:250px;
-  }
+.Coverimage {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 225px;
+  left: 546px;
+  width: 250px;
+}
 
-  .subheading{
-    position: absolute;
-    top: 292px;
-    left: 394px;
-    color: white;
-    font-weight: 400;
-   }
+.subheading {
+  position: absolute;
+  top: 292px;
+  left: 394px;
+  color: white;
+  font-weight: 400;
+}
 
-   .searchbar{
-    /* font-Size: 16;
+.searchbar {
+  /* font-Size: 16;
     color: '#1890ff'; */
-    position: absolute;
-    top: 367px;
-    left: 425px;
-    
-   }
+  position: absolute;
+  top: 367px;
+  left: 425px;
+}
 
-  .ant-popover{
-    width: 30%;
-  }
+.ant-popover {
+  width: 30%;
+  max-height:200px;
+  overflow-y:scroll;
+}
 
-  /* .tag1{
+.ant-popover::-webkit-scrollbar{
+  display: none;
+}
 
-    
-    position: absolute;
-    top: 42px;
-    left: 12px;
+.ant-popover-inner-content{
+  display: flex;
+  flex-direction: column;
+}
 
+.cardHolder{
+  display: flex;
+  flex-direction: column;
+}
 
-  }
+.ant-card{
+  display: flex;
+  width :100% !important;
+  flex-direction: row;
+}
 
-  .tag2{
-
-    
-    position: absolute;
-    top: 42px;
-    left: 60px;
-
-  } */
+.ant-card-cover{
+  height: 68px;
+  width: 72px;
+}

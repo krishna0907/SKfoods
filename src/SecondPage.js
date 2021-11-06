@@ -1,15 +1,17 @@
-import React from "react";
+// import "./SecondPage.css";
 import "antd/dist/antd.css";
 import { Input, Space } from "antd";
 import { Popover, Button } from "antd";
 import { Tag } from "antd";
 import { Card } from "antd";
 import { useState } from "react";
+import React from "react";
+
 
 const { Meta } = Card;
 const { Search } = Input;
 
-function Landingpage(props) {
+function SecondPage(props) {
   var [textAreaInput, setTextAreaInput] = useState(false);
   var [filteration, setFilteration] = useState([]);
   
@@ -79,19 +81,11 @@ function Landingpage(props) {
     );
   }
 
+
+  
   return (
     <div>
-      <img
-        className="image1"
-        src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"
-      ></img>
-      <img
-        className="image2"
-        src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
-      ></img>
-      <h1 className="subheading">Discover the best food & drinks in Chennai</h1>
-
-      <Space align="center" className="searchbar">
+      <Space align="center" className="npm start">
         <div>
           <Popover
             content={inputContents}
@@ -102,6 +96,7 @@ function Landingpage(props) {
             placement="bottom"
           >
             <Search
+              
               placeholder="input search text"
               onChange={(e) => {
                 filterNvData(e.currentTarget.value);
@@ -118,4 +113,4 @@ function Landingpage(props) {
   );
 }
 
-export default Landingpage;
+export default SecondPage;
