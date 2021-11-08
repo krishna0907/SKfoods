@@ -1,0 +1,133 @@
+.Bread {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -370px;
+  top: 8px;
+}
+
+
+.AvatarContainer{
+
+    position: relative;
+    right: -100px;
+
+}
+
+.Avatar2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -582px;
+  top: 32px;
+}
+
+.Avatar3 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -410px;
+      top: -74px;
+}
+
+.Avatar4 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -218px;
+  top: -182px;
+}
+
+.Delivery {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -498px;
+  top:-20px;
+}
+
+.Diningout {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -315px;
+  top: -126px;
+}
+
+.Nightlife {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: -130px;
+  top: -232px;
+}
+
+
+.Button1{
+    position: relative;
+    top: -200px;
+    left: 245px;
+    border-radius: 0.8rem;
+}
+
+
+.Button2{
+    position: relative;
+    top: -240px;
+    left: 143px;
+    border-radius: 0.8rem;
+}
+
+
+.Button3{
+    position: relative;
+    top: -279px;
+    left: 345px;
+    border-radius: 0.8rem;
+}
+
+
+.Button4{
+    position: relative;
+    top: -319px;
+    left: 439px;
+    border-radius: 0.8rem;
+}
+
+
+.Button5{
+    position: relative;
+    top: -359px;
+    left: 532px;
+    border-radius: 0.8rem;
+}
+
+
+
+.ant-btn{
+
+    border-radius: 10px;
+
+}
+
+.Dropdown{
+
+    position: relative;
+    top: -396px;
+    left: 255px;
+
+}
+
+.Dropdown2{
+
+    position: relative;
+    top: -428px;
+    left: 354px;
+}

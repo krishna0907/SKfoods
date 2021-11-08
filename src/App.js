@@ -7,7 +7,7 @@ import "antd/dist/antd.css";
 import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
-import { BrowserRouter as Router,Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router,Switch, Route, Link } from "react-router-dom";
 
 function App() {
   var [collectionOfData, setCollectionOfData] = useState([]);
@@ -24,17 +24,17 @@ function App() {
   return (
     <Router>
       <div className="Coverimage">
-        <Routes>
-          <Route path="/" exact element ={<Landingpage all_data={collectionOfData} />}>
-            
+        <Switch>
+          <Route path="/" exact>
+          <Landingpage all_data={collectionOfData} />
           </Route>
-        {/* </Switch> */}
+        </Switch>
 
-        {/* <Switch> */}
-          <Route path="/category-nv" element={<SecondPage/>}>
-            
+        <Switch>
+          <Route path="/category-nv" >
+          <SecondPage all_data={collectionOfData}/>
           </Route>
-        </Routes>
+        </Switch>
       </div>
     </Router>
   );

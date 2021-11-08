@@ -1,0 +1,52 @@
+.card.ant-card{
+    height: 306px;
+    display: flex;
+    width: 14% !important;
+    flex-direction: column;
+    position: relative;
+    top: 240px;
+}
+
+.card.ant-card-cover{
+
+    display: flex;
+    width: 260%;
+
+}
+
+/* .ant-card-body{
+    
+    top: 188px;
+
+} */
+
+
+.card{
+
+    position: relative;
+    top: -375px;
+    left: 195px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+{
+border-color: transparent;
+    box-shadow: 0 1px 2px -2px rgb(0 0 0 / 5%), 0 3px 6px 0 rgb(0 0 0 / 5%), 0 5px 12px 4px rgb(0 0 0 / 5%);
+border-color: transparent;
+    box-shadow: 0 1px 2px -2px rgb(0 0 0 / 30%), 0 3px 6px 0 rgb(0 0 0 / 30%), 0 5px 12px 4px rgb(0 0 0 / 30%);
+ } */

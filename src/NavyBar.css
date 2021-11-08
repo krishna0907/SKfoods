@@ -1,0 +1,37 @@
+.Search .ant-input-wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  left: 260px;
+  height: 60px;
+}
+
+.heading {
+  top: 9px;
+  align-items: center;
+  font-size: medium;
+  font-family: Metropolis Regular;
+  font-style: italic;
+  font-weight: 1000;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: 198px;
+}
+
+.profile {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: relative;
+  left: 362px;
+}
+
+
+.ant-dropdown-trigger{
+
+
+  position: relative;
+  left: 370px;
+
+}
