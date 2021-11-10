@@ -131,7 +131,7 @@ function NavyBar(props) {
 
       <Dropdown overlay={""} trigger={['click']}>
     <a className="ant-dropdown-link" onClick={""}>
-      Click me <DownOutlined />
+      Sign in <DownOutlined />
     </a>
   </Dropdown>,
 

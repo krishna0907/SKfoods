@@ -3,7 +3,7 @@
   justify-content: center;
   display: flex;
   position: relative;
-  left: -370px;
+  left: -440px;
   top: 8px;
 }
 
@@ -67,6 +67,18 @@
   position: relative;
   left: -130px;
   top: -232px;
+}
+
+.divide .ant-divider-horizontal{
+    
+      left: 94px;
+      border-top-width: thick;
+      position: relative;
+      top: -471px;
+      border-top-color: #df0505;
+      width: 84% !important;
+      min-width: auto;
+   
 }
 
 

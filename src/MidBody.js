@@ -2,7 +2,8 @@ import { Avatar, Image } from "antd";
 import { UserOutlined } from "@ant-design/icons";
 import { Breadcrumb } from "antd";
 import { Button } from 'antd';
-import "./MidBody.css";import { Menu, Dropdown, message, Space, Tooltip } from 'antd';
+import "./MidBody.css";
+import { Menu, Dropdown, message, Space, Tooltip } from 'antd';
 import { DownOutlined } from '@ant-design/icons';
 import { Divider } from 'antd';
 
@@ -13,10 +14,13 @@ function MidBody() {
         <Breadcrumb>
           <Breadcrumb.Item>Home</Breadcrumb.Item>
           <Breadcrumb.Item>
-            <a href="">Application Center</a>
+            <a href="">India</a>
           </Breadcrumb.Item>
           <Breadcrumb.Item>
-            <a href="">Application List</a>
+            <a href="">Chennai</a>
+          </Breadcrumb.Item>
+          <Breadcrumb.Item>
+            <a href="">T.nagar</a>
           </Breadcrumb.Item>
         </Breadcrumb>
         ,
@@ -79,16 +83,7 @@ function MidBody() {
     </Dropdown>
 </div>
 
-
-<div className="Dropdown2">
-<Dropdown>
-      <Button>
-        Button <DownOutlined />
-      </Button>
-    </Dropdown>
-</div>
-
-<div>
+<div className="divide">
 <Divider />
 </div>
 

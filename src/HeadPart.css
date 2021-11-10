@@ -1,0 +1,25 @@
+.headPartWork {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  flex-wrap: wrap;
+}
+.firstPart {
+  flex: 0.5;
+}
+.leftImage {
+  max-width: 747px;
+  height: 427px;
+  position: relative;
+  left: 100px;
+}
+.secondPart {
+  flex: 1;
+  position: relative;
+  left: 120px;
+}
+.rightImage {
+  height: 200px;
+  width: 329px;
+  margin: 1%;
+}

@@ -8,6 +8,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
 import { BrowserRouter as Router,Switch, Route, Link } from "react-router-dom";
+import HotelPage from "./HotelPage";
 
 function App() {
   var [collectionOfData, setCollectionOfData] = useState([]);
@@ -33,6 +34,12 @@ function App() {
         <Switch>
           <Route path="/category-nv" >
           <SecondPage all_data={collectionOfData}/>
+          </Route>
+        </Switch>
+
+        <Switch>
+          <Route path="/Hotel" >
+          <HotelPage/>
           </Route>
         </Switch>
       </div>
